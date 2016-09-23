@@ -4,87 +4,89 @@
   <title>Portfolio1</title>
   <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="styles/styles.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,700" rel="stylesheet" type="text/css">
 </head>
+
 <body>
-  <div class="container-fluid" id="intro">
+  <div class="container-fluid hero landscape" id="intro">
       <h1>Spike Speigel</h1>
       <h5>Freelance Photographer</h5>
-      <a href="#gallery">Gallery</a>
+      <a href="#gallery">
+        <button type="button" class="cta">See More</button></a>
   </div>
-  <div id="about" class="container">
+  <div id="about" class="container-fluid hero">
     <h2>About me</h2>
     <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6 left-col">
           <h2>I'm a self-taught photographer with a passion for travel and design</h2>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 right-col">
           <h5>I was born in Cape Town, South Africa and moved around a lot as a kid. To keep me distracted, my parents gave me a camera. Since then, I look at the world through a lens. I've visited over 30 countries and taken almost one quarter of a million photographs, and I feel like I'm just getting started. From landscapes to personal portraits and exciting scenes, I love being able to capture a moment. Join me on my journey!</h5>
         </div>
     </div>
   </div>
-  <div id="gallery" class="container-fluid">
+  <div class="gallery container-fluid hero">
       <h2>Gallery<h2>
     <div class="container">
       <div class="row">
         <div class="col-md-4">
-          <img src="img/gallery/gallery-01.jpg" height="300px" width="350px"/>
+          <img src="img/gallery/gallery-01.jpg"/>
         </div>
         <div class="col-md-4">
-          <img src="img/gallery/gallery-02.jpg" height="300px" width="350px"/>
+          <img src="img/gallery/gallery-02.jpg"/>
         </div>
         <div class="col-md-4">
-          <img src="img/gallery/gallery-03.jpg" height="300px" width="350px"/>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <img src="img/gallery/gallery-04.jpg" height="300px" width="350px"/>
-        </div>
-        <div class="col-md-4">
-          <img src="img/gallery/gallery-05.jpg" height="300px" width="350px"/>
-        </div>
-        <div class="col-md-4">
-          <img src="img/gallery/gallery-06.jpg" height="300px" width="350px"/>
+          <img src="img/gallery/gallery-03.jpg"/>
         </div>
       </div>
       <div class="row">
         <div class="col-md-4">
-          <img src="img/gallery/gallery-07.jpg" height="300px" width="350px"/>
+          <img src="img/gallery/gallery-04.jpg"/>
         </div>
         <div class="col-md-4">
-          <img src="img/gallery/gallery-08.jpg" height="300px" width="350px"/>
+          <img src="img/gallery/gallery-05.jpg"/>
         </div>
         <div class="col-md-4">
-          <img src="img/gallery/gallery-09.jpg" height="300px" width="350px"/>
+          <img src="img/gallery/gallery-06.jpg"/>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <img src="img/gallery/gallery-07.jpg"/>
+        </div>
+        <div class="col-md-4">
+          <img src="img/gallery/gallery-08.jpg"/>
+        </div>
+        <div class="col-md-4">
+          <img src="img/gallery/gallery-09.jpg"/>
         </div>
       </div>
     </div>
   </div>
-<div class="container-fluid" class ="bridge">
+<div class="container-fluid bridge hero">
 </div>
-<div id="contact" class="container-fluid">
+<div id="contact" class="container-fluid hero">
     <h2>Contact Me</h2>
     <p>I'm available for freelance - from events like weddings to documenting your next adventure, let's chat!</p>
     <a href="mailto:mail@me.com">e-mail
     </a>
   <div id="social">
     <a href="http://www.twitter.com">
-      <img src="img/icons/twitter-alt.svg" height="20px" width="20px"/>
+      <img src="img/icons/twitter-alt.svg"/>
     </a>
     <a href="http://www.medium.com">
-      <img src="img/icons/medium.svg" height="20px" width="20px"/>
+      <img src="img/icons/medium.svg"/>
     </a>
     <a href="http://www.instagram.com">
-      <img src="img/icons/instagram.svg" height="20px" width="20px"/>
+      <img src="img/icons/instagram.svg"/>
     </a>
   </div>
 </div>
   <div id="footer">
     <div class="footer-item">
-      <strong>Imani
-        <br>Mosley</br>
-      </strong>
-    </div>
+        <h4><b>Spike <br>Speigel</b></h4>
+      </div>
     <div class="footer-item">
         <a href="#intro">About</a>
     </div>
@@ -94,7 +96,9 @@
     <div class="footer-item">
       <a href="#contact">Contact</a>
     </div>
-
+    <div id="copyright">
+      <span>©Spike Spiegel</span>
+    </div>
   </div>
 
 
